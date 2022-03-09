@@ -167,6 +167,28 @@ body {
   padding-bottom: 0rem;
 }
 
+@media (min-width: 992px) {
+  .navbar .navbar_list.navbar_admin_login .nav-item {
+    letter-spacing: 0px;
+    margin-right: 4rem !important;
+  }
+  .navbar .navbar_list.navbar_admin_login .nav-item:last-child {
+    margin-right: 0px !important;
+  }
+}
+
+@media (max-width: 1250px) {
+  .navbar .navbar_list.navbar_admin_login {
+    margin-right: 1rem !important;
+  }
+}
+
+@media (max-width: 1350px) and (min-width: 1199px) {
+  .navbar .navbar_list.navbar_admin_login .nav-link {
+    font-size: 1.3rem;
+  }
+}
+
 .navbar .navbar_list a {
   font-size: 1.4rem;
   color: var(--text-black) !important;

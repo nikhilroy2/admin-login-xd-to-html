@@ -66,6 +66,16 @@
   padding-bottom: 2rem;
 }
 
+.section_title.section_title_sub.title_sub_140 {
+  padding-top: 12rem;
+}
+
+@media (max-width: 1199px) {
+  .section_title.section_title_sub.title_sub_140 {
+    padding-top: 5rem;
+  }
+}
+
 .section_title.section_title_sub.sub_sm {
   padding-bottom: 1.2rem;
 }

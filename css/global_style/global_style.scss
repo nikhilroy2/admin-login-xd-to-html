@@ -149,6 +149,25 @@ body {
         padding-bottom: 0rem;
       }
     }
+    &.navbar_admin_login {
+      @media (min-width: 992px) {
+        .nav-item {
+          letter-spacing: 0px;
+          margin-right: 4rem !important;
+          &:last-child {
+            margin-right: 0px !important;
+          }
+        }
+      }
+      @media (max-width: 1250px) {
+        margin-right: 1rem !important;
+      }
+      @media (max-width: 1350px) and (min-width: 1199px) {
+        .nav-link {
+          font-size: 1.3rem;
+        }
+      }
+    }
     a {
       font-size: 1.4rem;
       color: var(--text-black) !important;

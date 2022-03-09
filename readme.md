@@ -30,4 +30,22 @@
     <li>
         <a href="https://admin-login-xd-to-html.netlify.app/Admin_client_edit.html">https://admin-login-xd-to-html.netlify.app/Admin_client_edit.html</a>
     </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Administrator_administrative_user_registration.html">https://admin-login-xd-to-html.netlify.app/Administrator_administrative_user_registration.html</a>
+    </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Admin_administrator_edit.html">https://admin-login-xd-to-html.netlify.app/Admin_administrator_edit.html</a>
+    </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Administrator_content_management.html">https://admin-login-xd-to-html.netlify.app/Administrator_content_management.html</a>
+    </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Administrator_video_management.html">https://admin-login-xd-to-html.netlify.app/Administrator_video_management.html</a>
+    </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Admin_content_management.html">https://admin-login-xd-to-html.netlify.app/Admin_content_management.html</a>
+    </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Administrator_administrative_user.html">https://admin-login-xd-to-html.netlify.app/Administrator_administrative_user.html</a>
+    </li>
 </ol>

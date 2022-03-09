@@ -46,6 +46,12 @@
   &.section_title_sub {
     padding-top: 5rem;
     padding-bottom: 2rem;
+    &.title_sub_140{
+      padding-top: 12rem;
+      @media (max-width: 1199px){
+        padding-top: 5rem;
+      }
+    }
     &.sub_sm {
       padding-bottom: 1.2rem;
     }
