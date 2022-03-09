@@ -39,7 +39,7 @@
   --text-be: #3281be;
   --text-48: #333e48;
   --text-93: #005393;
-  --text-f7: #4f9df7;
+  --text-df7: #4f9df7;
   --text-5b: #0b1f5b;
   --text-01: #0d0101;
   --text-32: #202732;
@@ -434,6 +434,10 @@ p.paragraph {
 
 .text_f7 {
   color: var(--text-f7) !important;
+}
+
+.text_df7 {
+  color: var(--text-df7) !important;
 }
 
 .text_01 {
