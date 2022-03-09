@@ -1452,9 +1452,43 @@
   font-family: yugothib;
 }
 
+.staff_list_table_wrapper.mb_foot {
+  margin-bottom: 11.1rem;
+}
+
+@media (max-width: 1199px) {
+  .staff_list_table_wrapper.mb_foot {
+    margin-bottom: 5rem;
+  }
+}
+
+.staff_list_table_wrapper .mb-1_4 {
+  margin-bottom: 1.4rem;
+}
+
 .staff_list_table_wrapper .staff_table {
   border: 1px solid var(--text-cc);
   border-right: none;
+}
+
+.staff_list_table_wrapper .staff_table.table_td_last_p_0 td:last-child {
+  padding-right: 0px;
+}
+
+.staff_list_table_wrapper .staff_table * {
+  vertical-align: middle;
+}
+
+.staff_list_table_wrapper .staff_table.no_border {
+  border: none;
+}
+
+.staff_list_table_wrapper .staff_table.no_border th {
+  border: none !important;
+}
+
+.staff_list_table_wrapper .staff_table.no_td_right_border td {
+  border-right: none !important;
 }
 
 .staff_list_table_wrapper .staff_table thead {
@@ -1509,6 +1543,22 @@
 }
 
 .staff_list_table_wrapper .staff_table thead .staff_table_sm_rows th:nth-child(5) {
+  width: 54rem !important;
+}
+
+.staff_list_table_wrapper .staff_table thead .staff_table_sm_rows.rows_resizer th:nth-child(1), .staff_list_table_wrapper .staff_table thead .staff_table_sm_rows.rows_resizer th:nth-child(2) {
+  width: 4rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .staff_table_sm_rows.rows_resizer th:nth-child(3) {
+  width: 27.1rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .staff_table_sm_rows.rows_resizer th:nth-child(4) {
+  width: 27.3rem;
+}
+
+.staff_list_table_wrapper .staff_table thead .staff_table_sm_rows.rows_resizer th:nth-child(5) {
   width: 54rem !important;
 }
 

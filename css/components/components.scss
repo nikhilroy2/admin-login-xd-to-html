@@ -1044,10 +1044,38 @@
 
 .staff_list_table_wrapper {
   font-family: yugothib;
+  &.mb_foot {
+    margin-bottom: 11.1rem;
+    @media (max-width: 1199px) {
+      margin-bottom: 5rem;
+    }
+  }
+  .mb-1_4 {
+    margin-bottom: 1.4rem;
+  }
   .staff_table {
     $border: 1px solid var(--text-cc);
     border: $border;
     border-right: none;
+    &.table_td_last_p_0 {
+      td:last-child {
+        padding-right: 0px;
+      }
+    }
+    * {
+      vertical-align: middle;
+    }
+    &.no_border {
+      border: none;
+      th {
+        border: none !important;
+      }
+    }
+    &.no_td_right_border {
+      td {
+        border-right: none !important;
+      }
+    }
     thead {
       font-size: 1.6rem;
       th {
@@ -1097,6 +1125,23 @@
           }
           &:nth-child(5) {
             width: 54rem !important;
+          }
+        }
+        &.rows_resizer {
+          th {
+            &:nth-child(1),
+            &:nth-child(2) {
+              width: 4rem;
+            }
+            &:nth-child(3) {
+              width: 27.1rem;
+            }
+            &:nth-child(4) {
+              width: 27.3rem;
+            }
+            &:nth-child(5) {
+              width: 54rem !important;
+            }
           }
         }
       }
