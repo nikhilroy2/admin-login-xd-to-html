@@ -55,6 +55,9 @@
         padding: 0.3rem 1rem;
       }
     }
+    .textarea_height {
+      height: 20.4rem;
+    }
     .form-control.h_40_sizer {
       height: 4rem;
       padding: 0.8rem 1.2rem;
@@ -76,6 +79,11 @@
     max-width: 48rem;
     font-size: 1.8rem;
     font-family: yugothib;
+
+    &.w_100 {
+      max-width: 100%;
+      width: 100%;
+    }
     &.policy_table_form {
       max-width: 100%;
       td {
@@ -115,7 +123,7 @@
     * {
       color: var(--text-01);
       border: none;
-      vertical-align: middle;
+      vertical-align: baseline;
     }
     .form-group {
       margin-bottom: 0px;
@@ -149,6 +157,12 @@
       td:nth-child(odd) {
         @media (min-width: 1200px) {
           padding-right: 9.4rem !important;
+        }
+      }
+      &.td_sizer_5 {
+        td:nth-child(odd) {
+          padding-right: 5.4rem !important;
+          width: 20.4rem;
         }
       }
       &.sizer_sm {

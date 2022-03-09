@@ -69,6 +69,10 @@
   }
 }
 
+.form_container .form-group .textarea_height {
+  height: 20.4rem;
+}
+
 .form_container .form-group .form-control.h_40_sizer {
   height: 4rem;
   padding: 0.8rem 1.2rem;
@@ -93,6 +97,11 @@
   max-width: 48rem;
   font-size: 1.8rem;
   font-family: yugothib;
+}
+
+.form_container .form_table.w_100 {
+  max-width: 100%;
+  width: 100%;
 }
 
 .form_container .form_table.policy_table_form {
@@ -145,7 +154,7 @@
 .form_container .form_table * {
   color: var(--text-01);
   border: none;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 .form_container .form_table .form-group {
@@ -210,6 +219,11 @@
   .form_container .form_table.form_table_td_sizer td:nth-child(odd) {
     padding-right: 9.4rem !important;
   }
+}
+
+.form_container .form_table.form_table_td_sizer.td_sizer_5 td:nth-child(odd) {
+  padding-right: 5.4rem !important;
+  width: 20.4rem;
 }
 
 @media (min-width: 1200px) {
