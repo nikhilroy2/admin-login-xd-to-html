@@ -27,4 +27,7 @@
     <li>
         <a href="https://admin-login-xd-to-html.netlify.app/Administrator_client_browsing_page.html">https://admin-login-xd-to-html.netlify.app/Administrator_client_browsing_page.html</a>
     </li>
+    <li>
+        <a href="https://admin-login-xd-to-html.netlify.app/Admin_client_edit.html">https://admin-login-xd-to-html.netlify.app/Admin_client_edit.html</a>
+    </li>
 </ol>
