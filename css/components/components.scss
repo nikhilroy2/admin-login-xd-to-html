@@ -550,19 +550,19 @@
         font-weight: bold;
       }
     }
-    .content_right_helper {
-      font-size: 1.6rem;
-      color: var(--text-red);
-      min-width: 20rem;
-      height: 3rem;
-      display: inline-flex;
-      align-items: center;
-      padding: 0.4rem 0.8rem;
-      background: var(--text-e8);
-      @media (max-width: 600px) {
-        min-width: 15rem;
-      }
-    }
+  }
+}
+.content_right_helper {
+  font-size: 1.6rem;
+  color: var(--text-red);
+  min-width: 20rem;
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  background: var(--text-e8);
+  @media (max-width: 600px) {
+    min-width: 15rem;
   }
 }
 

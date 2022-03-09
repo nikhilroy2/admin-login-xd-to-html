@@ -771,7 +771,7 @@
   font-weight: bold;
 }
 
-.content_list_wrapper .content_list .content_right_helper {
+.content_right_helper {
   font-size: 1.6rem;
   color: var(--text-red);
   min-width: 20rem;
@@ -787,7 +787,7 @@
 }
 
 @media (max-width: 600px) {
-  .content_list_wrapper .content_list .content_right_helper {
+  .content_right_helper {
     min-width: 15rem;
   }
 }
