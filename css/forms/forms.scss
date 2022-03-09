@@ -133,6 +133,9 @@
     }
     .form-control {
       padding: 1.1rem;
+      &.h_40{
+        height: 4rem;
+      }
       @media (max-width: 600px) {
         padding: 0.5rem 0.7rem;
       }
@@ -148,6 +151,9 @@
       @media (max-width: 600px) {
         width: 15rem;
       }
+    }
+    .w_70{
+      width: 7rem;
     }
     .w_140 {
       width: 14rem;

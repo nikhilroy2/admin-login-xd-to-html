@@ -171,6 +171,10 @@
   padding: 1.1rem;
 }
 
+.form_container .form_table .form-control.h_40 {
+  height: 4rem;
+}
+
 @media (max-width: 600px) {
   .form_container .form_table .form-control {
     padding: 0.5rem 0.7rem;
@@ -195,6 +199,10 @@
   .form_container .form_table .w_200 {
     width: 15rem;
   }
+}
+
+.form_container .form_table .w_70 {
+  width: 7rem;
 }
 
 .form_container .form_table .w_140 {
