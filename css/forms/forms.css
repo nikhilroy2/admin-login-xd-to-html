@@ -73,6 +73,12 @@
   height: 20.4rem;
 }
 
+@media (max-width: 600px) {
+  .form_container .form-group .textarea_height {
+    height: 10rem;
+  }
+}
+
 .form_container .form-group .form-control.h_40_sizer {
   height: 4rem;
   padding: 0.8rem 1.2rem;
@@ -224,6 +230,13 @@
 .form_container .form_table.form_table_td_sizer.td_sizer_5 td:nth-child(odd) {
   padding-right: 5.4rem !important;
   width: 20.4rem;
+}
+
+@media (max-width: 600px) {
+  .form_container .form_table.form_table_td_sizer.td_sizer_5 td:nth-child(odd) {
+    padding-right: 1.4rem !important;
+    width: 12rem;
+  }
 }
 
 @media (min-width: 1200px) {

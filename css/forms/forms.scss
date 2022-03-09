@@ -57,6 +57,9 @@
     }
     .textarea_height {
       height: 20.4rem;
+      @media (max-width: 600px){
+        height: 10rem;
+      }
     }
     .form-control.h_40_sizer {
       height: 4rem;
@@ -163,6 +166,10 @@
         td:nth-child(odd) {
           padding-right: 5.4rem !important;
           width: 20.4rem;
+          @media (max-width: 600px) {
+            padding-right: 1.4rem !important;
+            width: 12rem;
+          }
         }
       }
       &.sizer_sm {
