@@ -464,6 +464,16 @@
   }
 }
 
+.btn_dark.btn_mb_2 {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 600px) {
+  .btn_dark.btn_mb_2 {
+    margin-bottom: .8rem;
+  }
+}
+
 @media (max-width: 600px) {
   .btn_dark {
     width: 12rem;

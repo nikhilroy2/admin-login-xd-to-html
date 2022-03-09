@@ -212,6 +212,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .form_container .form_table.form_table_td_sizer.sizer_sm td:nth-child(odd) {
+    padding-right: 3.2rem !important;
+  }
+}
+
 .form_container tr td:first-child {
   padding-left: 0px;
   padding-right: 4.1rem;

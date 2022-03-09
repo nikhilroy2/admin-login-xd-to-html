@@ -327,6 +327,13 @@
       margin-top: 1.4rem;
     }
   }
+  &.btn_mb_2 {
+    margin-bottom: 2.4rem;
+    @media (max-width: 600px) {
+      margin-bottom: .8rem;
+    }
+  }
+
   @media (max-width: 600px) {
     width: 12rem;
   }

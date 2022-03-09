@@ -83,15 +83,15 @@
       }
       td:nth-child(odd) {
         width: 30rem;
-        @media (max-width: 1199px){
+        @media (max-width: 1199px) {
           width: auto;
           white-space: nowrap;
         }
       }
       td:nth-child(even) {
-        @media (max-width: 600px){
+        @media (max-width: 600px) {
           white-space: nowrap;
-          .form-control{
+          .form-control {
             min-width: 25rem;
           }
         }
@@ -149,6 +149,13 @@
       td:nth-child(odd) {
         @media (min-width: 1200px) {
           padding-right: 9.4rem !important;
+        }
+      }
+      &.sizer_sm {
+        td:nth-child(odd) {
+          @media (min-width: 1200px) {
+            padding-right: 3.2rem !important;
+          }
         }
       }
     }
