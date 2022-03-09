@@ -18,4 +18,7 @@
     <li>
         <a href="http://127.0.0.1:5500/Administrator_staff_edit.html">http://127.0.0.1:5500/Administrator_staff_edit.html</a>
     </li>
+    <li>
+        <a href="http://127.0.0.1:5500/Administration_client_management.html">http://127.0.0.1:5500/Administration_client_management.html</a>
+    </li>
 </ol>

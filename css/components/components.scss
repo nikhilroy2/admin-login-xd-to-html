@@ -1083,6 +1083,23 @@
           }
         }
       }
+      .staff_table_sm_rows {
+        th {
+          &:nth-child(1),
+          &:nth-child(2) {
+            width: 4rem;
+          }
+          &:nth-child(3) {
+            width: 27.1rem;
+          }
+          &:nth-child(4) {
+            width: 27.3rem;
+          }
+          &:nth-child(5) {
+            width: 54rem !important;
+          }
+        }
+      }
       .rows_2 {
         th {
           background: var(--text-e8);
