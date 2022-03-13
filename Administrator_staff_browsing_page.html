@@ -689,43 +689,55 @@
                 .then(res => res.json())
                 .then(data => {
                     //  console.log(data)
-
-                    document.querySelector('.content_list').innerHTML = ''
-                    data.forEach((v, i) => {
-
-                        if (btn_event.classList.contains('load_more_action') && i < 6 ) {
-                            console.log(i)
-                            //document.querySelector('.content_list').innerHTML = '';
-                            console.log(v)
-                             //document.querySelector('.content_list').innerHTML += 'Hi'
-                        } else {
-                             document.querySelector('.content_list').innerHTML += `
-<li>
-            <h6>
-               ${v.title}
-            </h6>
-            <div class="list_foot d-flex align-items-center">
-                <span>${v.date}</span>
-                <a href="#" class="text_df7">${v.category}</a>
-            </div>
-        </li>
-
-`
-
-                        }
-
-                    })
-
-
-                    btn_event.classList.toggle('load_more_action')
+                    btn_event.classList.toggle('load_more_action');
                     if (btn_event.classList.contains('load_more_action')) {
                         btn_event.innerHTML = 'READ LESS'
                     } else {
                         btn_event.innerHTML = 'READ MORE'
                     }
+
+
+
+                    // fetch data
+
+                    if (btn_event.classList.contains('load_more_action')) {
+                        console.log('load data')
+                        document.querySelector('.content_list').innerHTML = ''
+                        data.forEach(v => {
+                            document.querySelector('.content_list').innerHTML += `
+<li>
+        <h6>
+           ${v.title}
+        </h6>
+        <div class="list_foot d-flex align-items-center">
+            <span>${v.date}</span>
+            <a href="#" class="text_df7">${v.category}</a>
+        </div>
+    </li>
+
+`
+                        })
+                    } else {
+                        console.log('less data')
+                        document.querySelector('.content_list').innerHTML = '';
+                        data.forEach((v, i) => {
+                            if (i < 4) {
+                                document.querySelector('.content_list').innerHTML += `
+<li>
+        <h6>
+           ${v.title}
+        </h6>
+        <div class="list_foot d-flex align-items-center">
+            <span>${v.date}</span>
+            <a href="#" class="text_df7">${v.category}</a>
+        </div>
+    </li>
+
+`
+                            }
+                        })
+                    }
                 })
-
-
         }
 
     </script>
