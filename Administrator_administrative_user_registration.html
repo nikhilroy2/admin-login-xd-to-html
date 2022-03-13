@@ -23,6 +23,14 @@
     <!-- forms-->
     <link rel="stylesheet" href="./css/forms/forms.css">
     <!-- forms End-->
+
+    <style>
+        @media (max-width: 500px) {
+            .form_height_for_mobile {
+                min-height: 48rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -99,14 +107,15 @@
 
         <section>
             <div class="section_container container_left_helper container_right_helper">
-                <div class="section_title section_title_sub title_sub_140 section_title_mb title_padding title_border_bottom">
+                <div
+                    class="section_title section_title_sub title_sub_140 section_title_mb title_padding title_border_bottom">
                     <div class="d-flex align-items-center justify-content-between">
                         <h3 class="text_primary">
                             管理ユーザー登録
                         </h3>
                     </div>
                 </div>
-                <form action="" method="post" class="">
+                <form action="" method="post" class="form_height_for_mobile">
                     <div class="form_container  table-responsive  pb-1">
                         <table class="table form_table_td_sizer form_table">
                             <tbody>
@@ -203,6 +212,15 @@
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+    <script>
+        let hasVScroll = window.document.body.scrollHeight > document.documentElement.clientHeight;
+        // console.log(window.document.body.scrollHeight)
+        // console.log(document.documentElement.clientHeight)
+        console.log(hasVScroll)
+        if (!hasVScroll) {
+            document.querySelector('footer').setAttribute('style', 'padding-top: 5rem; padding-bottom: 5rem')
+        }
+    </script>
 </body>
 
 </html>

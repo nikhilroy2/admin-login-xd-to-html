@@ -141,12 +141,12 @@
 
                 <div class="section_title section_title_sub  title_padding title_border_bottom">
                     <div class="d-flex align-items-center justify-content-between">
-                        <h3 class="text_primary me-3">
+                        <h3 class=" text_primary me-3 text-nowrap">
                             動画一覧
                         </h3>
 
                         <div class="pagination_wrapper mb-0">
-                            <ul class="pagination_list list-unstyled d-flex flex-wrap justify-content-end ">
+                            <ul class="pagination_list  list-unstyled d-flex flex-nowrap justify-content-end ">
                                 <li>
                                     <a href="#">
                                         <i class="fas fa-angle-left    "></i>
@@ -670,6 +670,15 @@
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+<script>
+        let hasVScroll = window.document.body.scrollHeight > document.documentElement.clientHeight;
+        // console.log(window.document.body.scrollHeight)
+        // console.log(document.documentElement.clientHeight)
+        console.log(hasVScroll)
+        if(!hasVScroll){
+            document.querySelector('footer').setAttribute('style', 'padding-top: 5rem; padding-bottom: 5rem')
+        }
+    </script>
 </body>
 
 </html>
